@@ -1,0 +1,95 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Xeno Systems</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--<div style="margin-top:100px;"></div>-->
+  <div class="container">
+  <div class="item-a">
+  <nav>
+    <a href="#" class="menu-trigger">Menu</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Clients</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+
+</div> <!-- End Item-a Header -->
+<div class="item-b">
+  <h1>Xeno Systems</h1>
+</div> <!-- End Item-b Main  -->
+<div class="item-c">
+<h2>Our Business</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus totam pariatur incidunt consequatur rerum distinctio eaque dolorem cupiditate deserunt minima.<br /><br />
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam nemo ipsa deleniti deserunt perspiciatis. Dignissimos, perferendis sequi. Vitae aut expedita saepe fuga at, placeat reiciendis vero voluptas, optio? Voluptatum ab voluptates, iste excepturi porro! Consequatur asperiores quos doloremque quas perspiciatis velit, a ipsam adipisci sunt, sequi incidunt totam inventore.<br /><br />
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum exercitationem similique nam laboriosam odit non ipsam earum eos iusto rerum nobis labore fugit quaerat libero doloremque delectus sint doloribus cumque fuga consectetur, quia ducimus repellat.</p>
+</div> <!-- End Item-c Sidebar -->
+<div class="flexcards">
+  <ul class="cards">
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--fence"></div>
+        <div class="card__content">
+          <div class="card__title">Networking</div>
+          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit pariatur laborum harum sed esse eaque ea rerum animi quae assumenda. </p>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--river"></div>
+        <div class="card__content">
+          <div class="card__title">Growth</div>
+          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam eligendi distinctio a incidunt similique! Ullam ea atque nemo, error quas.</p><!--          <button class="btn btn--block card__btn">Button</button> -->
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--record"></div>
+        <div class="card__content">
+          <div class="card__title">Data Mining</div>
+          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellendus quos omnis atque ullam, suscipit harum totam dolor sint nam!</p>
+        </div>
+      </div>
+    </li>
+</div> <!-- End Flexbox Cards-->
+<div class="blocktext">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, aut doloremque totam dolore tempora quae sapiente sint alias officiis odio nostrum deleniti maxime magnam sed est labore et voluptates, eaque quis accusamus, explicabo amet aspernatur! Odio quo vitae mollitia quae, nobis fugit totam laboriosam modi ad fuga eaque. At enim repudiandae quo ea! Alias cupiditate vel qui, eligendi tenetur, sapiente!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, velit, magni. Excepturi nulla dolore adipisci officia qui, expedita odio iste iusto numquam provident maiores minus laboriosam officiis sapiente asperiores repellendus. Quo inventore rerum nesciunt ab error harum dolores, enim illum!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptatem distinctio rem molestias quisquam architecto repellat! Incidunt, sequi, assumenda molestias autem impedit harum aspernatur eligendi nostrum adipisci voluptatum id sit. Fugit pariatur esse aliquid ipsam autem? Molestiae nesciunt similique laborum autem, sit ea totam dolorem explicabo quidem nemo! Illo, minus.</p>
+</div>
+<div class="item-d">
+  <p>© Copyright 2018 Xeno Business Systems</p>
+</div> <!-- End Item-c  Footer -->
+</div> <!-- End Container -->
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script>
+    $(document).ready(function () {
+      $('.menu-trigger').click(function () {
+        $('nav ul').slideToggle(680);
+      }); //end slide toggle
+
+      $(window).resize(function () {
+        if ($(window).width() > 680) {
+          $('nav ul').removeAttr('style');
+        }
+      }); //end resize
+    }); //end ready
+  </script>
+</body>
+
+</html>
